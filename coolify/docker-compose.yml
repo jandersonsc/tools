@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ubuntu:
+    image: ubuntu:latest
+    container_name: coolify
+    stdin_open: true
+    tty: true
+    ports:
+      - "5678:5678"
